@@ -9,7 +9,7 @@ public class Interpreter {
     private byte[] memory;
     private int memoryPointer;
     private int nestedLoopCounter;
-    private final int MAX_SIZE = 10000;
+    private final int MAX_SIZE = 30000;
 
     public Interpreter(String input_){
         this.input = input_.toCharArray();
