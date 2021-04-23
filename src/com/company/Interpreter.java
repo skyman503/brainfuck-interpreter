@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Interpreter {
-    Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
     private char[] input;
     private byte[] memory;
